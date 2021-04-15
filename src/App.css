@@ -10,10 +10,11 @@ html {
 
 body {
   font-size: 1.4rem;
-  font-family: "Open Sans", sans-serif; }
-
-.header {
+  font-family: "Open Sans", sans-serif;
   background-color: #1c2431; }
+
+.App {
+  padding: 4rem 8rem; }
 
 .container {
   max-width: 140rem;
