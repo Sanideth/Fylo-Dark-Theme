@@ -91,3 +91,37 @@
     }
   }
 }
+
+.section-testimonials {
+  padding: 5rem;
+  &__testimonials {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__testimonial {
+    flex-basis: 31%;
+    background-color: $blue-dark-testimonials;
+    padding: 3rem 2rem 2.5rem 2rem;
+    color: #fff;
+    & > *:not(:last-child) {
+      margin-bottom: 4rem;
+    }
+  }
+  &__paragraph {
+    opacity: 0.8;
+  }
+
+  &__user-container {
+    display: flex;
+    align-items: center;
+  }
+  &__img-container {
+    margin-right: 2rem;
+  }
+  &__img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+  }
+}
