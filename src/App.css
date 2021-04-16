@@ -16,6 +16,70 @@ body {
 .App {
   padding: 4rem 8rem; }
 
+ul {
+  list-style: none; }
+
+a,
+a:visited,
+a:link {
+  text-decoration: none; }
+
+.header__top {
+  display: flex;
+  justify-content: space-between; }
+
+.header__list {
+  display: flex; }
+  .header__list > *:not(:last-child) {
+    margin-right: 2rem; }
+
+.header__link {
+  color: #fff; }
+
+.header__intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0; }
+  .header__intro > *:not(:last-child) {
+    margin-bottom: 3rem; }
+
+.header__img {
+  display: block;
+  width: 80%;
+  margin: 0 auto; }
+
+.header__text-container {
+  text-align: center; }
+  .header__text-container > *:not(:last-child) {
+    margin-bottom: 3rem; }
+
 .container {
   max-width: 140rem;
   margin: 0 auto; }
+
+.logo {
+  display: block;
+  width: 100%; }
+
+.heading-primary,
+.paragraph-primary {
+  margin: 0 auto;
+  color: #fff; }
+
+.heading-primary {
+  width: 50%; }
+
+.paragraph-primary {
+  width: 45%; }
+
+.btn {
+  outline: none; }
+
+.btn-primary {
+  padding: 1rem 6rem;
+  background-color: #65e2d9;
+  color: #fff;
+  border-radius: 5rem;
+  font-size: 1.2rem; }
