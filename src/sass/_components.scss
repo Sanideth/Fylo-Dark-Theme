@@ -1,4 +1,33 @@
 .container {
-    max-width: 140rem;
-    margin: 0 auto;
+  max-width: 140rem;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  width: 100%;
+}
+
+.heading-primary,
+.paragraph-primary {
+  margin: 0 auto;
+  color: #fff;
+}
+.heading-primary {
+  width: 50%;
+}
+.paragraph-primary {
+  width: 45%;
+}
+
+.btn {
+  outline: none;
+}
+
+.btn-primary {
+  padding: 1rem 6rem;
+  background-color: $color-cyan;
+  color: #fff;
+  border-radius: 5rem;
+  font-size: 1.2rem;
 }

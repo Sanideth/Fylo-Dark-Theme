@@ -1,1 +1,42 @@
+.header {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+  }
 
+  &__list {
+    display: flex;
+
+    & > *:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+
+  &__link {
+    color: #fff;
+  }
+
+  &__intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+    & > *:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+  }
+
+  &__img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  &__text-container {
+    text-align: center;
+    & > *:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+  }
+}
