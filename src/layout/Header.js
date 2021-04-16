@@ -43,7 +43,7 @@ const Header = () => {
             />
           </div>
           <div className="header__button-container">
-            <Button text="Get Started" />
+            <Button text="Get Started" className="btn-primary" />
           </div>
         </div>
       </div>
