@@ -3,17 +3,13 @@ import Paragraph from "../components/Paragraph";
 
 const Testimonial = (props) => {
   return (
-    <div className="testimonial">
+    <div className={`${props.className}__testimonial`}>
       <p className={`${props.className}__paragraph`}>{props.text}</p>
-      <div className="user-container">
-        <div className="img-container">
-          <Image
-            src={props.src}
-            alt={props.alt}
-            className={`${props.className}__img`}
-          />
+      <div className={`${props.className}__user-container`}>
+        <div className={`${props.className}__img-container`}>
+          <Image src={props.src} alt={props.alt} className={props.className} />
         </div>
-        <div className="text-container">
+        <div className={`${props.className}__text-container`}>
           <Paragraph text={props.textName} className={props.userClassName} />
           <Paragraph
             text={props.textCredentials}
