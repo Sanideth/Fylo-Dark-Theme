@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Fylo-Dark-Theme/static/css/main.12b5ceff.chunk.css",
+    "main.js": "/Fylo-Dark-Theme/static/js/main.b35cd9e6.chunk.js",
+    "main.js.map": "/Fylo-Dark-Theme/static/js/main.b35cd9e6.chunk.js.map",
+    "runtime-main.js": "/Fylo-Dark-Theme/static/js/runtime-main.5f8493cc.js",
+    "runtime-main.js.map": "/Fylo-Dark-Theme/static/js/runtime-main.5f8493cc.js.map",
+    "static/js/2.c88ff0e3.chunk.js": "/Fylo-Dark-Theme/static/js/2.c88ff0e3.chunk.js",
+    "static/js/2.c88ff0e3.chunk.js.map": "/Fylo-Dark-Theme/static/js/2.c88ff0e3.chunk.js.map",
+    "static/js/3.16dae70a.chunk.js": "/Fylo-Dark-Theme/static/js/3.16dae70a.chunk.js",
+    "static/js/3.16dae70a.chunk.js.map": "/Fylo-Dark-Theme/static/js/3.16dae70a.chunk.js.map",
+    "index.html": "/Fylo-Dark-Theme/index.html",
+    "static/css/main.12b5ceff.chunk.css.map": "/Fylo-Dark-Theme/static/css/main.12b5ceff.chunk.css.map",
+    "static/js/2.c88ff0e3.chunk.js.LICENSE.txt": "/Fylo-Dark-Theme/static/js/2.c88ff0e3.chunk.js.LICENSE.txt",
+    "static/media/facebook.69afda5b.svg": "/Fylo-Dark-Theme/static/media/facebook.69afda5b.svg",
+    "static/media/icon-access-anywhere.2856c661.svg": "/Fylo-Dark-Theme/static/media/icon-access-anywhere.2856c661.svg",
+    "static/media/icon-any-file.fc9b91ba.svg": "/Fylo-Dark-Theme/static/media/icon-any-file.fc9b91ba.svg",
+    "static/media/icon-arrow.2491a46a.svg": "/Fylo-Dark-Theme/static/media/icon-arrow.2491a46a.svg",
+    "static/media/icon-collaboration.6c80c0a4.svg": "/Fylo-Dark-Theme/static/media/icon-collaboration.6c80c0a4.svg",
+    "static/media/icon-email.201ea9e2.svg": "/Fylo-Dark-Theme/static/media/icon-email.201ea9e2.svg",
+    "static/media/icon-location.a681f02d.svg": "/Fylo-Dark-Theme/static/media/icon-location.a681f02d.svg",
+    "static/media/icon-phone.43c05d1a.svg": "/Fylo-Dark-Theme/static/media/icon-phone.43c05d1a.svg",
+    "static/media/icon-security.b6a932b6.svg": "/Fylo-Dark-Theme/static/media/icon-security.b6a932b6.svg",
+    "static/media/illustration-intro.c20d8525.png": "/Fylo-Dark-Theme/static/media/illustration-intro.c20d8525.png",
+    "static/media/illustration-stay-productive.5d7a50ea.png": "/Fylo-Dark-Theme/static/media/illustration-stay-productive.5d7a50ea.png",
+    "static/media/instagram.9bd6921d.svg": "/Fylo-Dark-Theme/static/media/instagram.9bd6921d.svg",
+    "static/media/logo.f5363383.svg": "/Fylo-Dark-Theme/static/media/logo.f5363383.svg",
+    "static/media/twitter.03576904.svg": "/Fylo-Dark-Theme/static/media/twitter.03576904.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f8493cc.js",
+    "static/js/2.c88ff0e3.chunk.js",
+    "static/css/main.12b5ceff.chunk.css",
+    "static/js/main.b35cd9e6.chunk.js"
+  ]
+}
