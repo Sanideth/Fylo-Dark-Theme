@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Fylo-Dark-Theme/static/css/main.12b5ceff.chunk.css",
+    "main.css": "/Fylo-Dark-Theme/static/css/main.222f9359.chunk.css",
     "main.js": "/Fylo-Dark-Theme/static/js/main.b35cd9e6.chunk.js",
     "main.js.map": "/Fylo-Dark-Theme/static/js/main.b35cd9e6.chunk.js.map",
     "runtime-main.js": "/Fylo-Dark-Theme/static/js/runtime-main.5f8493cc.js",
@@ -10,8 +10,9 @@
     "static/js/3.16dae70a.chunk.js": "/Fylo-Dark-Theme/static/js/3.16dae70a.chunk.js",
     "static/js/3.16dae70a.chunk.js.map": "/Fylo-Dark-Theme/static/js/3.16dae70a.chunk.js.map",
     "index.html": "/Fylo-Dark-Theme/index.html",
-    "static/css/main.12b5ceff.chunk.css.map": "/Fylo-Dark-Theme/static/css/main.12b5ceff.chunk.css.map",
+    "static/css/main.222f9359.chunk.css.map": "/Fylo-Dark-Theme/static/css/main.222f9359.chunk.css.map",
     "static/js/2.c88ff0e3.chunk.js.LICENSE.txt": "/Fylo-Dark-Theme/static/js/2.c88ff0e3.chunk.js.LICENSE.txt",
+    "static/media/App.prefixed.css": "/Fylo-Dark-Theme/static/media/bg-curvy-mobile.3ab5d2c7.svg",
     "static/media/facebook.69afda5b.svg": "/Fylo-Dark-Theme/static/media/facebook.69afda5b.svg",
     "static/media/icon-access-anywhere.2856c661.svg": "/Fylo-Dark-Theme/static/media/icon-access-anywhere.2856c661.svg",
     "static/media/icon-any-file.fc9b91ba.svg": "/Fylo-Dark-Theme/static/media/icon-any-file.fc9b91ba.svg",
@@ -30,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.5f8493cc.js",
     "static/js/2.c88ff0e3.chunk.js",
-    "static/css/main.12b5ceff.chunk.css",
+    "static/css/main.222f9359.chunk.css",
     "static/js/main.b35cd9e6.chunk.js"
   ]
 }
