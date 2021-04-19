@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Fylo-Dark-Theme/static/css/main.222f9359.chunk.css",
-    "main.js": "/Fylo-Dark-Theme/static/js/main.a1b6e795.chunk.js",
-    "main.js.map": "/Fylo-Dark-Theme/static/js/main.a1b6e795.chunk.js.map",
+    "main.css": "/Fylo-Dark-Theme/static/css/main.b4abecbe.chunk.css",
+    "main.js": "/Fylo-Dark-Theme/static/js/main.53fe4647.chunk.js",
+    "main.js.map": "/Fylo-Dark-Theme/static/js/main.53fe4647.chunk.js.map",
     "runtime-main.js": "/Fylo-Dark-Theme/static/js/runtime-main.5f8493cc.js",
     "runtime-main.js.map": "/Fylo-Dark-Theme/static/js/runtime-main.5f8493cc.js.map",
     "static/js/2.c88ff0e3.chunk.js": "/Fylo-Dark-Theme/static/js/2.c88ff0e3.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.16dae70a.chunk.js": "/Fylo-Dark-Theme/static/js/3.16dae70a.chunk.js",
     "static/js/3.16dae70a.chunk.js.map": "/Fylo-Dark-Theme/static/js/3.16dae70a.chunk.js.map",
     "index.html": "/Fylo-Dark-Theme/index.html",
-    "static/css/main.222f9359.chunk.css.map": "/Fylo-Dark-Theme/static/css/main.222f9359.chunk.css.map",
+    "static/css/main.b4abecbe.chunk.css.map": "/Fylo-Dark-Theme/static/css/main.b4abecbe.chunk.css.map",
     "static/js/2.c88ff0e3.chunk.js.LICENSE.txt": "/Fylo-Dark-Theme/static/js/2.c88ff0e3.chunk.js.LICENSE.txt",
     "static/media/App.prefixed.css": "/Fylo-Dark-Theme/static/media/bg-curvy-mobile.3ab5d2c7.svg",
     "static/media/facebook.69afda5b.svg": "/Fylo-Dark-Theme/static/media/facebook.69afda5b.svg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.5f8493cc.js",
     "static/js/2.c88ff0e3.chunk.js",
-    "static/css/main.222f9359.chunk.css",
-    "static/js/main.a1b6e795.chunk.js"
+    "static/css/main.b4abecbe.chunk.css",
+    "static/js/main.53fe4647.chunk.js"
   ]
 }
