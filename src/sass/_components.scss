@@ -5,7 +5,10 @@
 
 .logo {
   display: block;
-  width: 100%;
+  width: 60%;
+  @media only screen and (max-width: $bp-tiny) {
+    width: 80%;
+  }
 }
 
 .heading-primary,
@@ -16,14 +19,28 @@
 .heading-primary {
   width: 70%;
   font-size: 3.7rem;
+  @media only screen and (max-width: $bp-small) {
+    width: 90%;
+  }
+  @media only screen and (max-width: $bp-tiny) {
+    width: 100%;
+    font-size: 3.2rem;
+  }
 }
 .paragraph-primary {
   width: 45%;
+  @media only screen and (max-width: $bp-small) {
+    width: 100%;
+  }
 }
 
 .heading-secondary {
-  font-size: 3rem;
+  font-size: 3.5rem;
   width: 70%;
+  @media only screen and (max-width: $bp-tiny) {
+    width: 100%;
+    font-size: 2.5rem;
+  }
 }
 
 .heading-tertiary {
@@ -32,6 +49,9 @@
 
 .heading-footer {
   font-size: 3.5rem;
+  @media only screen and (max-width: $bp-tiny) {
+    font-size: 3rem;
+  }
 }
 
 .btn {
@@ -42,10 +62,21 @@
 
 .btn-primary {
   padding: 1.3rem 6rem;
-  background-image: linear-gradient(to right, $color-cyan, $color-blue);
+  background-image: linear-gradient(
+    to right,
+    $color-cyan,
+    $color-blue,
+    $color-cyan
+  );
   border-radius: 5rem;
   font-size: 1.2rem;
   font-weight: 700;
+  transition: all 0.5s;
+  background-size: 300%;
+
+  &:hover {
+    background-position: right;
+  }
 }
 
 .btn-remote {
@@ -62,7 +93,18 @@
   font-weight: 700;
   padding: 1.5rem 4rem;
   display: inline-block;
-  background-image: linear-gradient(to right, $color-cyan, $color-blue);
+  background-image: linear-gradient(
+    to right,
+    $color-cyan,
+    $color-blue,
+    $color-cyan
+  );
+  transition: all 0.5s;
+  background-size: 300%;
+
+  &:hover {
+    background-position: right;
+  }
 }
 
 .button-span {
@@ -86,4 +128,17 @@
 
 .paragraph-footer {
   font-size: 1.4rem;
+}
+
+.required {
+  padding-left: 4rem;
+  padding-top: 1rem;
+  text-align: left;
+  color: red;
+  opacity: 0;
+  font-size: 1.2rem;
+  @media only screen and (max-width: $bp-tiny) {
+    padding-left: 0;
+    text-align: center;
+  }
 }

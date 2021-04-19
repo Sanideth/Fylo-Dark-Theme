@@ -5,9 +5,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+//bp at 1200px
+$bp-large: 75em;
+//bp at 1000px
+$bp-medium: 62.5em;
+
+//bp at 800px
+$bp-small: 50em;
+
+//bp at 600px
+$bp-tiny: 37.5em;
 
 html {
   font-size: 62.5%;
+  @media only screen and (max-width: $bp-tiny) {
+    font-size: 55%;
+  }
 }
 
 body {
@@ -15,13 +28,12 @@ body {
   font-family: $font-main;
 }
 
-.App {
-}
-
 ul {
   list-style: none;
 }
-
+img {
+  display: block;
+}
 a,
 a:visited,
 a:link {
@@ -36,4 +48,8 @@ h5,
 h6 {
   font-family: $font-secondary;
   color: #fff;
+}
+
+button {
+  border: none;
 }

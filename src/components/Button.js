@@ -7,15 +7,22 @@ const Button = (props) => {
       <Icon src={<IconArrow />} />
     </span>
   ) : null;
+
   return (
     <>
-      <a
-        href="https://github.com/Sanideth"
-        className={`btn ${props.className}`}
-      >
-        {props.text}
-        {renderSpan}
-      </a>
+      {props.type === "form" ? (
+        <button className={`btn ${props.className}`} type="submit">
+          {props.text}
+        </button>
+      ) : (
+        <a
+          href="https://github.com/Sanideth"
+          className={`btn ${props.className}`}
+        >
+          {props.text}
+          {renderSpan}
+        </a>
+      )}
     </>
   );
 };

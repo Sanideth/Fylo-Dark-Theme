@@ -31,16 +31,28 @@ const Footer = () => {
                 className="footer"
               />
             </div>
-            <form action="#" className="footer__box-form">
+            <form
+              action="#"
+              onSubmit="return false"
+              className="footer__box-form"
+            >
               <div className="footer__input-container">
                 <Input
                   className="footer"
                   type="email"
                   placeholder="example@fylo.com"
+                  required={true}
                 />
+                <div className="required">
+                  Please enter a valid email address
+                </div>
               </div>
               <div className="footer__button-container">
-                <Button text="Get Started For Free" className="btn-form" />
+                <Button
+                  text="Get Started For Free"
+                  className="btn-form"
+                  type="form"
+                />
               </div>
             </form>
           </div>

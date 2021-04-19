@@ -1,9 +1,17 @@
 .header {
   background-color: $blue-dark-intro;
   padding: 5rem;
+  @media only screen and (max-width: $bp-tiny) {
+    padding: 3rem;
+  }
   &__top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo-container {
+    flex-basis: 30%;
   }
 
   &__list {
@@ -11,11 +19,18 @@
 
     & > *:not(:last-child) {
       margin-right: 2rem;
+      @media only screen and (max-width: $bp-tiny) {
+        margin-right: 1rem;
+      }
     }
   }
 
   &__link {
     color: #fff;
+    transition: all 0.2s;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &__intro {
@@ -45,11 +60,18 @@
 
 .section-bonuses {
   background-color: $blue-dark-main;
-  padding: 10rem 5rem;
+  padding: 9rem 5rem;
+  @media only screen and (max-width: $bp-tiny) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
   &__bonuses {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 8rem;
+    @media only screen and (max-width: $bp-tiny) {
+      grid-template-columns: 1fr;
+    }
   }
 
   &__bonus {
@@ -62,6 +84,7 @@
   &__img {
     width: 115px;
     height: 100px;
+    margin: 0 auto;
   }
 
   &__text-container {
@@ -71,23 +94,43 @@
     & > *:not(:last-child) {
       margin-bottom: 1.5rem;
     }
+
+    @media only screen and (max-width: $bp-small) {
+      width: 70%;
+    }
   }
 }
 
 .section-remote {
   background-color: $blue-dark-main;
-  padding: 10rem 5rem;
+  padding: 9rem 5rem;
+  @media only screen and (max-width: $bp-tiny) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
   &__content {
     display: flex;
     justify-content: space-between;
+    @media only screen and (max-width: $bp-medium) {
+      flex-direction: column;
+    }
   }
   &__img {
     width: 100%;
+
+    @media only screen and (max-width: $bp-medium) {
+      width: 60%;
+      margin: 0 auto;
+    }
   }
 
   &__text-container {
-    padding-top: 12rem;
+    padding-top: 10rem;
+    padding-left: 3rem;
     flex-basis: 38%;
+    @media only screen and (max-width: $bp-small) {
+      padding-left: 0;
+    }
 
     color: #fff;
     & > *:not(:last-child) {
@@ -99,9 +142,19 @@
 .section-testimonials {
   background-color: $blue-dark-main;
   padding: 5rem 5rem 12rem 5rem;
+  @media only screen and (max-width: $bp-tiny) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
   &__testimonials {
     display: flex;
     justify-content: space-between;
+    @media only screen and (max-width: $bp-small) {
+      flex-direction: column;
+      & > *:not(:last-child) {
+        margin-bottom: 3rem;
+      }
+    }
   }
 
   &__testimonial {
@@ -153,6 +206,14 @@
     & > *:not(:last-child) {
       margin-bottom: 4rem;
     }
+
+    @media only screen and (max-width: $bp-large) {
+      padding-left: 4rem;
+      padding-right: 4rem;
+    }
+    @media only screen and (max-width: $bp-medium) {
+      width: 90%;
+    }
   }
   &__box-text-container {
     & > *:not(:last-child) {
@@ -163,13 +224,26 @@
   &__box-form {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+
+    @media only screen and (max-width: $bp-small) {
+      flex-direction: column;
+      width: 60%;
+      margin: 0 auto;
+      @media only screen and (max-width: $bp-tiny) {
+        width: 100%;
+      }
+    }
   }
   &__input-container {
     flex-basis: 65%;
   }
   &__button-container {
     flex-basis: 35%;
+    & > button {
+      @media only screen and (max-width: $bp-small) {
+        width: 100%;
+      }
+    }
   }
 
   &__input {
@@ -178,6 +252,14 @@
     border-radius: 4rem;
     border: none;
     font-size: 1.2rem;
+    &:focus {
+      outline: none;
+    }
+    &:invalid:focus:not(:placeholder-shown) {
+      & ~ .required {
+        opacity: 1;
+      }
+    }
   }
   &__details {
     padding: 5rem;
@@ -195,17 +277,31 @@
 
   &__about {
     display: flex;
+    @media only screen and (max-width: $bp-small) {
+      flex-direction: column;
+    }
   }
 
   &__info {
     display: flex;
     flex-basis: 50%;
+
+    @media only screen and (max-width: $bp-small) {
+      margin-bottom: 5rem;
+    }
+    @media only screen and (max-width: $bp-tiny) {
+      flex-direction: column;
+    }
   }
   &__location {
     flex-basis: 65%;
     padding-right: 2rem;
     display: flex;
     align-items: flex-start;
+    @media only screen and (max-width: $bp-tiny) {
+      padding-right: 0;
+      margin-bottom: 2rem;
+    }
     & > *:first-child {
       margin-right: 2rem;
     }
@@ -234,20 +330,39 @@
     flex-basis: 50%;
     display: flex;
     padding-left: 8rem;
+    justify-content: space-between;
+    @media only screen and (max-width: $bp-medium) {
+      padding-left: 5rem;
+    }
+    @media only screen and (max-width: $bp-small) {
+      padding-left: 0;
+      flex-direction: column;
+    }
   }
 
   &__nav {
     flex-basis: 60%;
+
+    @media only screen and (max-width: $bp-small) {
+      margin-bottom: 4rem;
+    }
   }
 
   &__list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 1.5rem;
+    @media only screen and (max-width: $bp-tiny) {
+      grid-template-columns: 1fr;
+    }
   }
 
   &__link {
     color: #fff;
+    transition: all 0.2s;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &__social {
@@ -261,14 +376,22 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      &:hover,
+      &:hover svg {
+        border-color: $color-cyan;
+        fill: $color-cyan;
+      }
     }
     & > *:not(:last-child) {
       margin-right: 1.5rem;
     }
     & svg {
       fill: #fff;
-      width: 1.5rem;
-      height: 1.5rem;
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+    @media only screen and (max-width: $bp-small) {
+      justify-content: center;
     }
   }
 }
