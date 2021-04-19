@@ -6,6 +6,7 @@ const Input = (props) => {
       placeholder={props.placeholder}
       className={`${props.className}__input`}
       ariaLabel={props.ariaLabel}
+      name={props.name}
     />
   );
 };

@@ -43,6 +43,7 @@ const Footer = () => {
                   placeholder="example@fylo.com"
                   required={true}
                   ariaLabel="Email Input"
+                  name="email"
                 />
                 <div className="required">
                   Please enter a valid email address
