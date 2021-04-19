@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.prefixed.css";
 import Header from "./layout/Header";
 import SectionBonuses from "./layout/SectionBonuses";
 import SectionRemote from "./layout/SectionRemote";
