@@ -2,10 +2,10 @@ import { ReactComponent as IconArrow } from "../img/icon-arrow.svg";
 import Icon from "../components/Icon";
 
 const Button = (props) => {
-  const renderSpan = props.withSpan ? (
-    <span className="button-span">
+  const renderSpan = props.withDiv ? (
+    <div className="button-div">
       <Icon src={<IconArrow />} />
-    </span>
+    </div>
   ) : null;
 
   return (

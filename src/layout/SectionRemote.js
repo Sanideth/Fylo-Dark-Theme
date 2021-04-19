@@ -35,7 +35,7 @@ const SectionRemote = () => {
             <div className="section-remote__button-container">
               <Button
                 text="See how Fylo works"
-                withSpan={true}
+                withDiv={true}
                 className="btn-remote"
               />
             </div>

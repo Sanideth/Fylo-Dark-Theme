@@ -403,12 +403,14 @@ button {
   border-bottom: 1px solid #65e2d9;
   position: relative;
   transition: all 0.2s; }
+  .btn-remote div {
+    display: inline-block; }
   .btn-remote use {
     transition: all 0.2s; }
   .btn-remote:hover {
     color: #fff;
     border-color: #fff; }
-    .btn-remote:hover span svg use {
+    .btn-remote:hover div svg use {
       fill: #fff; }
 
 .btn-form {
@@ -424,7 +426,7 @@ button {
   .btn-form:hover {
     background-position: right; }
 
-.button-span {
+.button-div {
   position: absolute;
   right: 0;
   transform: translateY(15%); }
