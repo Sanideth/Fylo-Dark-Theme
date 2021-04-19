@@ -42,6 +42,7 @@ const Footer = () => {
                   type="email"
                   placeholder="example@fylo.com"
                   required={true}
+                  ariaLabel="Email Input"
                 />
                 <div className="required">
                   Please enter a valid email address
@@ -61,7 +62,7 @@ const Footer = () => {
       <div className="footer__details">
         <div className="container">
           <div className="footer__logo-container">
-            <Logo src={logoSrc} />
+            <Logo src={logoSrc} alt="Main Logo" />
           </div>
           <div className="footer__about">
             <div className="footer__info">
