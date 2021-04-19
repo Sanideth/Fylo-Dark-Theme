@@ -20,7 +20,7 @@ const SectionRemote = () => {
             <Heading
               element="h2"
               text="Stay productive, wherever you are"
-              className="secondary"
+              className="secondary-remote"
             />
             <Paragraph
               text="Never let location be an issue when accessing your files. Fylo has you covered for all of your file 

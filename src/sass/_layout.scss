@@ -1,4 +1,6 @@
 .header {
+  background-color: $blue-dark-intro;
+  padding: 5rem;
   &__top {
     display: flex;
     justify-content: space-between;
@@ -42,7 +44,8 @@
 }
 
 .section-bonuses {
-  padding: 10rem 0;
+  background-color: $blue-dark-main;
+  padding: 10rem 5rem;
   &__bonuses {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -72,7 +75,8 @@
 }
 
 .section-remote {
-  padding: 10rem 0;
+  background-color: $blue-dark-main;
+  padding: 10rem 5rem;
   &__content {
     display: flex;
     justify-content: space-between;
@@ -93,7 +97,8 @@
 }
 
 .section-testimonials {
-  padding: 5rem;
+  background-color: $blue-dark-main;
+  padding: 5rem 5rem 12rem 5rem;
   &__testimonials {
     display: flex;
     justify-content: space-between;
@@ -123,5 +128,147 @@
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
+  }
+}
+
+.footer {
+  background-color: $blue-dark-footer;
+
+  &__box-container {
+    background-image: linear-gradient(
+      180deg,
+      $blue-dark-main 60%,
+      $blue-dark-footer 0
+    );
+  }
+
+  &__box {
+    width: 70%;
+    padding: 4rem 8rem 3rem 8rem;
+    margin: 0 auto;
+    background-color: $blue-dark-intro;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: #fff;
+    & > *:not(:last-child) {
+      margin-bottom: 4rem;
+    }
+  }
+  &__box-text-container {
+    & > *:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__box-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__input-container {
+    flex-basis: 65%;
+  }
+  &__button-container {
+    flex-basis: 35%;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 1.5rem 4rem;
+    border-radius: 4rem;
+    border: none;
+    font-size: 1.2rem;
+  }
+  &__details {
+    padding: 5rem;
+    color: #fff;
+    & p,
+    & a,
+    & img,
+    & svg {
+      opacity: 0.9;
+    }
+  }
+  &__logo-container {
+    margin-bottom: 4rem;
+  }
+
+  &__about {
+    display: flex;
+  }
+
+  &__info {
+    display: flex;
+    flex-basis: 50%;
+  }
+  &__location {
+    flex-basis: 65%;
+    padding-right: 2rem;
+    display: flex;
+    align-items: flex-start;
+    & > *:first-child {
+      margin-right: 2rem;
+    }
+
+    & svg {
+      vertical-align: text-bottom;
+    }
+  }
+
+  &__contact {
+    & svg {
+      vertical-align: text-bottom;
+    }
+    & > * {
+      display: flex;
+      & > *:first-child {
+        margin-right: 2rem;
+      }
+      &:not(:last-child) {
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+
+  &__navigation {
+    flex-basis: 50%;
+    display: flex;
+    padding-left: 8rem;
+  }
+
+  &__nav {
+    flex-basis: 60%;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 1.5rem;
+  }
+
+  &__link {
+    color: #fff;
+  }
+
+  &__social {
+    flex-basis: 40%;
+    display: flex;
+    & > * {
+      width: 3.1rem;
+      height: 3.1rem;
+      border-radius: 50%;
+      border: 1px solid #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    & > *:not(:last-child) {
+      margin-right: 1.5rem;
+    }
+    & svg {
+      fill: #fff;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
   }
 }

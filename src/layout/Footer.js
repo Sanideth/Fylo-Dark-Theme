@@ -16,8 +16,8 @@ import { ReactComponent as IconInstagram } from "../img/instagram.svg";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="container">
-        <div className="footer__box-container">
+      <div className="footer__box-container">
+        <div className="container">
           <div className="footer__box">
             <div className="footer__box-text-container">
               <Heading
@@ -40,12 +40,14 @@ const Footer = () => {
                 />
               </div>
               <div className="footer__button-container">
-                <Button text="Get Started For Free" className="form" />
+                <Button text="Get Started For Free" className="btn-form" />
               </div>
             </form>
           </div>
         </div>
-        <div className="footer__details">
+      </div>
+      <div className="footer__details">
+        <div className="container">
           <div className="footer__logo-container">
             <Logo src={logoSrc} />
           </div>
@@ -56,7 +58,7 @@ const Footer = () => {
                 <Paragraph
                   className="location"
                   text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-  dolore magna aliqua"
+dolore magna aliqua"
                 />
               </div>
               <div className="footer__contact">
